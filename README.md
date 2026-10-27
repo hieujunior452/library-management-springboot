@@ -79,7 +79,7 @@ Xem chi tiết tại Swagger UI khi app chạy.
 
 ## Tác giả
 
-Your Name (your-email@example.com)
+Hiếu Junior
 
 ## License
 
