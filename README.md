@@ -47,3 +47,40 @@ Hoặc chạy thẳng trong IDE (chọn file `LibraryApplication` → Run).
 ### 4. Truy cập Swagger UI
 
 Mở trình duyệt:
+
+http://localhost:8080/swagger-ui.html
+
+
+## Cấu trúc project
+
+src/main/java/com/example/library/
+├── controller/ - REST endpoints
+├── service/ - Lôgic nghiệp vụ
+├── repository/ - Truy cấp dữ liệu
+├── entity/ - JPA entities
+├── dto/ - Request/Response DTOs
+├── mapper/ - Chuyển đổi entity ↔ DTO
+├── exception/ - Exception handlers
+└── config/ - Cấu hình
+
+
+## Tính năng (đang phát triển)
+
+- [x] Setup project
+- [ ] Quản lý tác giả, thể loại, sách
+- [ ] Quản lý thành viên
+- [ ] Mượn/trả/gia hạn sách
+- [ ] Quản lý phạt
+- [ ] Báo cáo
+
+## API Documentation
+
+Xem chi tiết tại Swagger UI khi app chạy.
+
+## Tác giả
+
+Your Name (your-email@example.com)
+
+## License
+
+MIT License - xem file [LICENSE](LICENSE)
